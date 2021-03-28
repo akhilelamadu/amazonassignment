@@ -32,7 +32,8 @@ public class TestCase extends TestBase {
 	  super();
   }
 	@Test(priority=1)
-  public void Signinfirststep() {
+  //sign in page first
+	public void Signinfirststep() {
 		homepage = new HomePage();
 		signinUsernamePage = homepage.homepage1();
 		
